@@ -1018,26 +1018,18 @@ section {
 
 .social-links {
   display: flex;
-  gap: 16px;
-  margin-top: 40px;
+  gap: 15px;
 }
+
 .social-link {
-  width: 44px;
-  height: 44px;
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  text-decoration: none;
-  font-size: 12px;
-  transition: all 0.2s;
-  letter-spacing: 0.05em;
+  font-size: 24px;
+  color: #333;
+  transition: 0.3s;
 }
+
 .social-link:hover {
-  border-color: var(--accent);
-  color: var(--accent);
   transform: translateY(-3px);
+  color: #0077ff;
 }
 
 /* Contact form */
